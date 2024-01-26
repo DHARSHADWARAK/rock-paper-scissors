@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>rock paper scissors</title>
+        <link rel="stylesheet" href="game.css">
+    </head>
+    <body>
+        <h1><span id="r">ROCK</span> &nbsp&nbsp&nbsp&nbsp<span id="p">PAPER</span>&nbsp&nbsp&nbsp&nbsp <span id="s">SCISSORS</span> </h1>
+        <button id="mode">Change Mode</button>
+        <div id="maxsize">  
+            <div class="choices">
+        <div class="choice" id="rock">
+            <img src="img\rock.png" alt="rock">
+        </div>
+        <div class="choice" id="paper">
+            <img src="img\paper.png" alt="paper">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="img\scissor.png" alt="scissors">
+        </div>
+    </div>
+</div>
+    <br><br><br><br>
+    <div>
+    <div class="scoreboard">
+        <div class="score">
+            <p>YOU</p>
+            <p id="userscore">0</p>
+        </div>
+        <div class="score">
+            <p >COMP</p>
+            <p id="compscore">0</p>
+        </div>
+        <div class="score">
+            <p >DRAW</p>
+            <p id="drawscore">0</p>
+        </div>
+    </div>
+    <div class="total">
+        <p>TOTAL ATTEMPTS</p>
+        <p id="attempts">0</p>
+    </div>
+    <br><br>
+    <div class="msg_cont">
+        <p id="msg">play your move</p>
+    </div>
+    <button id="rst">Reset</button>
+</div>
+<script src="game.js"></script>
+<script src="mode.js"></script>
+</body>
+</html>
